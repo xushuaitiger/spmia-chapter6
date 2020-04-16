@@ -18,12 +18,12 @@ spring:
       discovery:
         enabled: true
       server:
-        encrypt.enabled: false
+        encrypt.enabled: true
         git:
-          uri: https://github.com/carnellj/config-repo/
+          uri: https://github.com/xushuaitiger/config-repo
           searchPaths: licensingservice,organizationservice,specialroutesservice,zuulservice
-          username: native-cloud-apps
-          password: 0ffended
+          username: xushuaitiger
+          password: abc919131
 
 #Setting logging levels
 logging:
